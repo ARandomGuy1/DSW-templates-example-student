@@ -8,7 +8,7 @@ def render_main():
 
 @app.route("/p1")
 def render_page1():
-    return render_template('p1.html')
+    return render_template('page1.html')
 
 @app.route("/p2")
 def render_page2():
